@@ -1,0 +1,37 @@
+In qualità di Principal Domain Architect, ecco l'esplorazione del dominio per la fabbrica di micrositi, seguendo i principi di modellazione preventiva e scomposizione cognitiva:
+
+Attori
+
+
+Brand Manager: Definisce brief, stile e obiettivi della campagna.
+
+
+Factory Orchestrator: Motore AI che genera contenuti e assembla la UI.
+
+
+SEO/GEO Optimizer: Modulo specializzato nella localizzazione e indicizzazione.
+
+Visitatore Finale: Destinatario del contenuto iper-localizzato.
+
+Flussi Principali
+
+
+Pipeline di Generazione: Brief → Espansione multilingua → Assemblaggio microsito premium.
+
+
+Ottimizzazione GEO-SEO: Analisi regionale → Iniezione metadati → Validazione posizionamento.
+
+Dati Chiave
+
+Brand Identity Schema: Asset, palette e tone of voice.
+
+Localized Content Matrix: Testi e metadati tradotti e adattati culturalmente.
+
+GEO-Targeting Rules: Parametri di distribuzione per regione.
+
+Vincoli Dominio
+
+
+Visual Integrity: Il design premium deve restare invariato tra diverse lingue.
+
+Regional Compliance: Rispetto rigoroso delle normative data/privacy locali.

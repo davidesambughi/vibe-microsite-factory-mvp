@@ -1,0 +1,6 @@
+STEP 3: Cognitive Decomposition
+
+• Inbound Orchestrator: Valida la coerenza del brief.json e l'integrità degli asset grafici. 
+• Creative AI Engine: Trasforma i requisiti in varianti UI e contenuti testuali multilingua.
+• SEO Semantic Agent: Inietta metadati localizzati e ottimizza i contenuti per le keyword regionali.
+• GEO Deployment Hub: Gestisce il rilascio globale, garantisce la conformità GDPR e attiva la telemetria.

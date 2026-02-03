@@ -1,0 +1,33 @@
+Ricevuto. Procedo con la Functional Reduction (STEP 2) per il flusso "Generazione microsito", applicando il principio "Think in pipelines".
+
+Input:
+
+
+brief.json 
+
+
+logo.png 
+
+
+keywords.csv 
+
+Transform:
+
+
+AI Generation: L'AI Factory trasforma il brief in 10 varianti UI multilingua.
+
+
+SEO Injection: Il SEO Bot inietta i meta tag locali basati sulle keywords.
+
+
+GEO Deployment: Deploy automatizzato con configurazione cookie consent GDPR e tracking.
+
+Output:
+
+10 Micrositi multilingua live 
+
+Meta tag SEO localizzati 
+
+Tracking conversioni regionale attivo 
+
+Next Step: Desideri procedere con lo STEP 3: Cognitive Decomposition per definire le interfacce e i contratti dei singoli moduli?

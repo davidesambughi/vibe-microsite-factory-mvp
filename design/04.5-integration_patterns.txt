@@ -1,0 +1,4 @@
+• Sync Request-Response: InboundOrchestrator chiama CreativeAIEngine via fetch Edge per feedback immediato sulla validazione degli asset.
+• Async Task Distribution: CreativeAIEngine attiva il SEOSemanticAgent tramite Supabase Webhooks per il processamento SEO parallelo e asincrono.
+• State Persistence Pattern: Ogni modulo aggiorna lo stato su Supabase (DB-centric coordination) per garantire resilienza e tracciabilità del workflow.
+• Middleware Routing: GEODepHub intercetta le richieste via Edge Middleware per applicare logiche GEO/GDPR prima del rendering.

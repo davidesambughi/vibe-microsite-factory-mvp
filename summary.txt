@@ -1,0 +1,63 @@
+STEP 1 :
+• Attori:
+  - BrandManager: carica brief+logo
+  - AI Factory: genera 10 varianti lingua
+  - SEO Bot: inietta meta tag locali  
+  - Visitatore: clicca CTA regionali
+
+• Flussi:
+  1. Brief→10 micrositi multilingua
+  2. Deploy GEO + track conversioni
+
+• Dati:
+  - brief.json, logo.png, keywords.csv, analytics.json
+
+• Vincoli:
+  - deploy <30s per lingua
+  - GDPR cookie consent per EU
+
+STEP 2 : 
+Ricevuto. Procedo con la Functional Reduction (STEP 2) per il flusso "Generazione microsito", applicando il principio "Think in pipelines".
+
+Input:
+brief.json ,
+logo.png ,
+keywords.csv 
+
+Transform:
+AI Generation: L'AI Factory trasforma il brief in 10 varianti UI multilingua.
+SEO Injection: Il SEO Bot inietta i meta tag locali basati sulle keywords.
+GEO Deployment: Deploy automatizzato con configurazione cookie consent GDPR e tracking.
+
+Output:
+10 Micrositi multilingua live 
+Meta tag SEO localizzati 
+Tracking conversioni regionale attivo 
+
+STEP 3 :  Cognitive Decomposition**
+- **Inbound Orchestrator**: Valida la coerenza del `brief.json` e l'integrità degli asset grafici.
+• **Creative AI Engine**: Trasforma i requisiti in varianti UI e contenuti testuali multilingua.
+• **SEO Semantic Agent**: Inietta metadati localizzati e ottimizza i contenuti per le keyword regionali.
+• **GEO Deployment Hub**: Gestisce il rilascio globale, garantisce la conformità GDPR e attiva la telemetria.
+
+STEP 4. Architectural Layout : 
+• InboundOrchestrator: Next.js Server Actions
+• CreativeAIEngine: Vercel Edge Functions
+• SEOSemanticAgent: Next.js API Routes
+• GEODepHub: Vercel Edge Middleware
+
+STEP 5. Integration Patterns :
+• Sync Request-Response: InboundOrchestrator chiama CreativeAIEngine via fetch Edge per feedback immediato sulla validazione degli asset.
+• Async Task Distribution: CreativeAIEngine attiva il SEOSemanticAgent tramite Supabase Webhooks per il processamento SEO parallelo e asincrono.
+• State Persistence Pattern: Ogni modulo aggiorna lo stato su Supabase (DB-centric coordination) per garantire resilienza e tracciabilità del workflow.
+• Middleware Routing: GEODepHub intercetta le richieste via Edge Middleware per applicare logiche GEO/GDPR prima del rendering.
+
+STEP 6 : CONTRACT DEFINITION vedi file lib/contracts.ts
+
+STEP 7 : Esecuzione Moduli MVP
+Scopo: Implementazione dei 4 moduli core come "ipotesi di codice" isolate e vincolate dai contratti.
+Moduli Implementati:
+Inbound Orchestrator: Validazione input e Fail-fast.
+Creative AI Engine: Espansione multi-lingua e Parallel generation (AI-stub).
+SEO Semantic Agent: Metadati 2026 e Hreflang deterministici.
+GEO Deployment Hub: Compliance GDPR e Configurazione Edge Region.

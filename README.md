@@ -23,5 +23,5 @@ npm run dev   # Test full pipeline with stubs
 npm run test  # 100% contract coverage
 
 
-Next Phase
+## Next Phase
 Premium Frontend UI – Next.js 16 + shadcn/ui
